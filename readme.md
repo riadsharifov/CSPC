@@ -18,3 +18,9 @@ speed-up: 3.29x faster
 Tests: all passing
 conclusion:
 everything worked as expected, created the virtual environment and configured git with gitHub without problems. numpy turned out to be around 3x faster than the usual python loop, and all tests passed.
+
+## Pw1 lab B
+
+1 observed decay data shows exponential decay over time
+2 the scatter points line up nicely with the theoretical curve so the decay law holds up
+3 snakemake automates figure creation and only rebuilds figure.png if plot.py or decay_observed.csv gets updated
